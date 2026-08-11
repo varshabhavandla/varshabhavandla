@@ -7,6 +7,9 @@
 <a href="https://www.linkedin.com/in/varsha-bh/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
+<a href="https://varshabhavandlapelli.com">
+  <img src="https://img.shields.io/badge/Portfolio-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+</a>
 <a href="mailto:varshabhavandla89@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
@@ -121,6 +124,8 @@ I'm a **Platform Engineer** who builds the foundations other teams ship on. I sp
 <div align="center">
 
 ### 💜 Let's build something reliable together
+
+<a href="https://varshabhavandlapelli.com"><img src="https://img.shields.io/badge/View_My_Portfolio-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portfolio"/></a>
 
 <img src="https://komarev.com/ghpvc/?username=varshabhavandla&label=Profile%20Views&color=7c3aed&style=for-the-badge" alt="profile views" />
 
