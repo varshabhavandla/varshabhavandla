@@ -5,6 +5,8 @@ description: Set up and work through Indiana Wesleyan University (IWU) graduate 
 
 # IWU assignment builder
 
+Tier: D (scripts + tests; drafting and coaching are judgment steps)
+
 ## Integrity rule (read first)
 Many IWU discussion prompts say the reflection "MUST be your personal interpretation and without the use of AI".
 - **Discussion posts / reflections with that rule -> COACH mode only:** outline, questions to answer, structure and rubric check, word-count check, feedback on the student's own draft. Do NOT write submit-ready prose.
