@@ -43,7 +43,7 @@ class Lint(unittest.TestCase):
     def test_round_bullets_recognised(self):
         _, w = l.lint(GOOD + "\u25cf Responsible for 5 deploys\n"); self.assertTrue(any("action verb" in x for x in w))
     def test_valid_verb_forms_pass(self):
-        for v in ("Troubleshot", "Administered", "Applied", "Lead", "Own", "Built", "Led", "Migrated", "Used"):
+        for v in ("Troubleshot", "Administered", "Applied", "Lead", "Own", "Built", "Led", "Migrated", "Used", "Direct", "Contributed"):
             self.assertTrue(l.is_action_verb(v.lower()), v)
     def test_non_verbs_fail(self):
         for v in ("responsible", "various", "experience", "the", "seed"):

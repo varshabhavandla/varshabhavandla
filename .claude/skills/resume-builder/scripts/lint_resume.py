@@ -14,7 +14,7 @@ developed drove eliminated enabled engineered established executed expanded impl
 led managed migrated mentored modernized monitored negotiated operated optimized orchestrated owned partnered provisioned reduced
 refactored released remediated replaced resolved restructured scaled secured shipped simplified standardized streamlined supported
 transformed upgraded validated wrote analyzed authored collaborated coordinated debugged diagnosed documented evaluated hardened
-instrumented maintained onboarded piloted rolled saved tested trained tuned unified used leveraged""".split())
+instrumented maintained onboarded piloted rolled saved tested trained tuned unified used leveraged directed contributed""".split())
 IRREGULAR = set("""built led ran drove wrote cut set took taught grew made kept sold won spent oversaw troubleshot rebuilt
 lead build run drive write take teach grow make keep sell oversee troubleshoot rebuild""".split())
 BULLET = r"^\s*[-*\u2022\u25cf\u25aa\u25e6]\s+"
