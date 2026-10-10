@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "write a LinkedIn note to a recruiter at Microsoft",
+  "how do I ask a former colleague for a referral",
+  "draft a follow-up after I applied last week",
+  "thank-you email after my interview",
+  "message an alum for an informational chat"
+ ],
+ "should_not_trigger": [
+  "write a cover letter",
+  "tailor my resume",
+  "mock interview me",
+  "what's my response rate",
+  "negotiate my offer"
+ ]
+}

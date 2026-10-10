@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "build me a proper resume for my profile",
+  "rewrite my resume, it feels weak",
+  "create a resume from my GitHub and portfolio",
+  "turn my experience into resume bullets with metrics",
+  "make my resume ATS friendly"
+ ],
+ "should_not_trigger": [
+  "tailor my resume to this Datadog job description",
+  "write a cover letter for this role",
+  "track my applications",
+  "negotiate my salary",
+  "prepare me for a Kubernetes interview"
+ ]
+}

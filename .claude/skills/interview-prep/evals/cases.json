@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "I have a Kubernetes interview tomorrow, help me prepare",
+  "mock interview me for a platform engineer role",
+  "how do I answer tell me about a time you failed",
+  "build my STAR stories from my experience",
+  "debrief my interview with me"
+ ],
+ "should_not_trigger": [
+  "write my resume",
+  "draft a cover letter",
+  "how much should I ask for in salary",
+  "add the interview to my tracker",
+  "10 week study plan for a certification"
+ ]
+}

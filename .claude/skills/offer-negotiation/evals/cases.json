@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "compare these two offers",
+  "how much should I ask for this platform engineer offer",
+  "recruiter asked my salary expectations, what do I say",
+  "write an email negotiating my base salary",
+  "is this offer good, base 120k with 10% bonus and RSUs"
+ ],
+ "should_not_trigger": [
+  "tailor my resume",
+  "write a cover letter",
+  "mock interview me",
+  "add the offer to my tracker",
+  "find roles that sponsor visas"
+ ]
+}

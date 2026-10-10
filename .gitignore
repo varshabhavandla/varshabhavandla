@@ -1,0 +1,6 @@
+
+# personal job-search data must never be committed
+job-search-data/
+tracker.csv
+__pycache__/
+*.pyc
