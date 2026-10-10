@@ -20,6 +20,7 @@ Tier: D (scripts/lint_resume.py + tests; fact-gathering and writing are judgment
 Keep contact details in the file only, never in logs or commits to public repos. Don't list visa status unless asked. Skills section lists only tools the user can discuss in an interview.
 
 ## Lessons from the first real run (keep these)
+- **If the user supplies a resume they like, keep its layout, fonts and wording**; change only what the user confirmed is different or wrong (numbers, current stack, titles, dates) and say exactly what changed. Do not redesign. Ask what they like before restyling. (First run: a full redesign was rejected; the original was `Times New Roman`, justified, navy caps headings with rules, italic keyword line, Core Competencies + Technical Skills.)
 - **Ask one question at a time** when the user prefers it; record each answer immediately in a draft with `[TODO]` markers, so nothing is lost and the lint blocks unfinished drafts.
 - **Keep a fact ledger** (every claim tagged: user said it / on the old resume / web / inferred). Resume claims may only come from user-said or old-resume facts; web and inferred facts need confirmation.
 - **Run an independent review before building** the file: three reviewers (truthfulness vs ledger; interview/background-check defensibility; recruiter/ATS quality). It caught: years-of-experience claims tied to the wrong skills, a stale company-stage label from a web result, absolute words ("zero", "eliminated", "clean", "owns"), and a duty-vs-result gap.
