@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "does this company sponsor visas for F-1 students",
+  "how do I answer will you require sponsorship on applications",
+  "I'm on CPT, how should I time my job search for OPT",
+  "what is E-Verify and why does it matter for STEM OPT",
+  "which companies are likely to hire F-1 students"
+ ],
+ "should_not_trigger": [
+  "build my resume",
+  "write a cover letter",
+  "mock interview me",
+  "compare two offers",
+  "12 week roadmap with no visa constraints"
+ ]
+}

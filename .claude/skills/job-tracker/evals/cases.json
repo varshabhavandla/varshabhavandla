@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "add Acme Corp SRE role to my tracker",
+  "what follow-ups are due this week",
+  "I just got a screen with Stripe, update it",
+  "how many applications have I sent and what's my response rate",
+  "show me everything in the interview stage"
+ ],
+ "should_not_trigger": [
+  "build me a 12 week roadmap",
+  "rewrite my resume summary",
+  "how do I answer tell me about yourself",
+  "compare these two offers",
+  "write my cover letter"
+ ]
+}

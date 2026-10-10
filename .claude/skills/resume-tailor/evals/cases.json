@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "tailor my resume to this job description",
+  "here's the JD, what keywords am I missing",
+  "match my resume to this Azure platform engineer posting",
+  "will my resume pass the ATS for this role",
+  "what should I change on my resume for this application"
+ ],
+ "should_not_trigger": [
+  "build my resume from scratch",
+  "how do I answer behavioral questions",
+  "update my application tracker",
+  "write a LinkedIn message to a recruiter",
+  "compare my two offers"
+ ]
+}
