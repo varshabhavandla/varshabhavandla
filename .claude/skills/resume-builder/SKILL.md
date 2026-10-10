@@ -19,5 +19,13 @@ Tier: D (scripts/lint_resume.py + tests; fact-gathering and writing are judgment
 ## Rules
 Keep contact details in the file only, never in logs or commits to public repos. Don't list visa status unless asked. Skills section lists only tools the user can discuss in an interview.
 
+## Lessons from the first real run (keep these)
+- **Ask one question at a time** when the user prefers it; record each answer immediately in a draft with `[TODO]` markers, so nothing is lost and the lint blocks unfinished drafts.
+- **Keep a fact ledger** (every claim tagged: user said it / on the old resume / web / inferred). Resume claims may only come from user-said or old-resume facts; web and inferred facts need confirmation.
+- **Run an independent review before building** the file: three reviewers (truthfulness vs ledger; interview/background-check defensibility; recruiter/ATS quality). It caught: years-of-experience claims tied to the wrong skills, a stale company-stage label from a web result, absolute words ("zero", "eliminated", "clean", "owns"), and a duty-vs-result gap.
+- **Check verifiable facts:** exact job titles and dates must match HR records and LinkedIn; Microsoft Associate/Expert certs expire after 12 months (once lapsed they generally need the exam retaken) - show "earned <date>", never imply current standing; group roles under one employer when HR shows continuous employment; keep client names generic unless NDA allows.
+- **Never put an internal tool name without saying it is internal** and who built it.
+- **docx build:** use a right-aligned tab stop for dates (positional tabs did not render in LibreOffice); render to images and look at them before delivering; keep the resume out of public repos.
+
 ## Tests
 `python3 -m unittest discover -s tests`
