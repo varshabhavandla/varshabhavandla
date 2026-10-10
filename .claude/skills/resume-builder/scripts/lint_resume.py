@@ -15,11 +15,19 @@ led managed migrated mentored modernized monitored negotiated operated optimized
 refactored released remediated replaced resolved restructured scaled secured shipped simplified standardized streamlined supported
 transformed upgraded validated wrote analyzed authored collaborated coordinated debugged diagnosed documented evaluated hardened
 instrumented maintained onboarded piloted rolled saved tested trained tuned unified""".split())
+IRREGULAR = set("""built led ran drove wrote cut set took taught grew made kept sold won spent oversaw troubleshot rebuilt
+lead build run drive write take teach grow make keep sell oversee troubleshoot rebuild""".split())
+BULLET = r"^\s*[-*\u2022\u25cf\u25aa\u25e6]\s+"
 WEAK = ["responsible for", "duties included", "worked on", "helped with", "assisted with", "participated in", "various", "etc"]
 SECTIONS = {"experience": r"experience|employment", "education": r"education", "skills": r"skills|technical"}
 
+def is_action_verb(word):
+    """Known verb, past tense (-ed), irregular, or present tense of a known verb (current-role bullets)."""
+    return (word in VERBS or word in IRREGULAR or (len(word) > 4 and word.endswith("ed"))
+            or word + "ed" in VERBS or word + "d" in VERBS)
+
 def bullets(text):
-    return [re.sub(r"^\s*[-*•]\s+", "", l).strip() for l in text.splitlines() if re.match(r"^\s*[-*•]\s+", l)]
+    return [re.sub(BULLET, "", l).strip() for l in text.splitlines() if re.match(BULLET, l)]
 
 def lint(text, max_bullets=6):
     errors, warns = [], []
@@ -37,7 +45,7 @@ def lint(text, max_bullets=6):
     for b in bullets(text):
         first = re.match(r"[A-Za-z]+", b)
         word = first.group(0).lower() if first else ""
-        if word not in VERBS:
+        if not is_action_verb(word):
             warns.append(f"bullet doesn't start with an action verb: '{b[:50]}'")
         for w in WEAK:
             if w in b.lower(): warns.append(f"weak phrase '{w}': '{b[:50]}'")
@@ -49,7 +57,7 @@ def lint(text, max_bullets=6):
             warns.append(f"bullet over 220 chars ({len(b)}): '{b[:40]}'")
     run = 0
     for line in text.splitlines() + [""]:
-        if re.match(r"^\s*[-*•]\s+", line): run += 1
+        if re.match(BULLET, line): run += 1
         else:
             if run > max_bullets: warns.append(f"{run} consecutive bullets (max {max_bullets}) - cut the weakest")
             run = 0

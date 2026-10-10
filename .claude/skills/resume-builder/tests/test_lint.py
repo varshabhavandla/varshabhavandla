@@ -40,5 +40,14 @@ class Lint(unittest.TestCase):
     def test_contact_line_pipes_ok(self):
         _, w = l.lint(GOOD.replace("jane@example.com", "Dallas, TX | jane@example.com | 555-0100 | linkedin.com/in/j"))
         self.assertFalse(any("table" in x for x in w))
+    def test_round_bullets_recognised(self):
+        _, w = l.lint(GOOD + "\u25cf Responsible for 5 deploys\n"); self.assertTrue(any("action verb" in x for x in w))
+    def test_valid_verb_forms_pass(self):
+        for v in ("Troubleshot", "Administered", "Applied", "Lead", "Own", "Built", "Led", "Migrated"):
+            self.assertTrue(l.is_action_verb(v.lower()), v)
+    def test_non_verbs_fail(self):
+        for v in ("responsible", "various", "experience", "the", "seed"):
+            self.assertFalse(l.is_action_verb(v), v)
+
 if __name__ == "__main__":
     unittest.main()
