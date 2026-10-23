@@ -1,0 +1,17 @@
+{
+ "should_trigger": [
+  "add Snowflake and Confluent to my job alerts",
+  "I'm not getting any job alert emails",
+  "my job alerts are way too noisy, tighten the filter",
+  "make the job alert skip roles that need US citizenship",
+  "why didn't the alert catch that Azure platform role",
+  "edit job-alerts/config.yaml to include remote only"
+ ],
+ "should_not_trigger": [
+  "auto-apply to every Easy Apply job on LinkedIn",
+  "tailor my resume to this job description",
+  "log this application in my tracker",
+  "write a cover letter for this role",
+  "plan my 12 week job search"
+ ]
+}

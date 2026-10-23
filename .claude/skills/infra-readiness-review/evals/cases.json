@@ -1,0 +1,17 @@
+{
+ "should_trigger": [
+  "what should I check before we launch this to prod",
+  "is my infrastructure ready for go-live",
+  "how would you handle a Sev-1 incident, interview answer",
+  "design a multi-region DR strategy for me to explain",
+  "my pod is in CrashLoopBackOff, walk me through triage",
+  "senior DevOps interview: what should be automated vs need human approval"
+ ],
+ "should_not_trigger": [
+  "write my resume summary",
+  "write a Terraform module for an AKS cluster",
+  "add a company to my job alerts",
+  "draft a cover letter",
+  "what salary should I ask for"
+ ]
+}
