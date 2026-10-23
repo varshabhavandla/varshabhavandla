@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "where do I start looking for a new job",
+  "give me a 12 week job search roadmap",
+  "I want to upgrade myself and apply for new jobs immediately",
+  "plan my job hunt around 15 hours a week",
+  "I've been at a startup and want to move out of my comfort zone, what's the plan"
+ ],
+ "should_not_trigger": [
+  "update the status of my Google application",
+  "tailor my resume to this job description",
+  "write a thank-you email after my interview",
+  "negotiate my offer",
+  "fix my README badges"
+ ]
+}

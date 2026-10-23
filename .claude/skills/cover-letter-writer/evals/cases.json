@@ -1,0 +1,16 @@
+{
+ "should_trigger": [
+  "write a cover letter for this platform engineer role",
+  "draft a short why-us answer for this application",
+  "write the email to send with my resume",
+  "I need a cover letter for the Stripe SRE job",
+  "help me write an application note to the recruiter"
+ ],
+ "should_not_trigger": [
+  "build my resume",
+  "add this job to my tracker",
+  "mock interview me",
+  "cold message a hiring manager on LinkedIn",
+  "negotiate a higher base"
+ ]
+}
