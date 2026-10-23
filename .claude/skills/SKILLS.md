@@ -13,3 +13,5 @@
 | networking-outreach | J | LinkedIn/email outreach, referrals, follow-up cadence | 2026-10-10 |
 | offer-negotiation | D | Offer comparison script + negotiation scripts | 2026-10-10 |
 | visa-aware-search | J | F-1/CPT/OPT-aware search guidance; confirm with DSO, not legal advice | 2026-10-10 |
+| job-alert-pipeline | D | Operate/extend job-alerts/: add companies, tune filters, debug emails, lint config.yaml | 2026-10-23 |
+| infra-readiness-review | J | Senior infra go/no-go checklist, prod troubleshooting playbook, DevOps scenario answers | 2026-10-23 |

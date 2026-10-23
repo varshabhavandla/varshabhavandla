@@ -1,0 +1,85 @@
+# Job alert pipeline configuration (profile derived from Varsha's resume).
+
+profile:
+  resume_file: resume.md        # plain-text facts Claude may draw on when drafting
+  email_to: varshabhavandla89@gmail.com   # alerts are sent here
+
+search:
+  # A job title must contain at least one of these (case-insensitive).
+  title_include:
+    - cloud platform
+    - platform engineer
+    - devops
+    - site reliability
+    - sre
+    - cloud engineer
+    - infrastructure engineer
+    - cloud security
+    - devsecops
+    - kubernetes
+    - azure
+  # ...and none of these.
+  title_exclude:
+    - intern
+    - junior
+    - associate
+    - sales
+    - manager
+    - director
+    - recruiter
+  # Allowed location substrings (case-insensitive). Empty list = any.
+  locations:
+    - remote
+    - united states
+    - usa
+    - dallas
+    - texas
+    - ", tx"
+  # Skills pulled from the resume; used to score matches (0-100).
+  skills:
+    azure: 3
+    aks: 3
+    kubernetes: 3
+    terraform: 3
+    gitops: 3
+    argocd: 2
+    github actions: 2
+    helm: 2
+    docker: 1
+    bicep: 2
+    prometheus: 2
+    grafana: 2
+    key vault: 1
+    "workload identity": 2
+    devsecops: 2
+    observability: 2
+    aws: 1
+    python: 1
+    bash: 1
+    ci/cd: 1
+  min_score: 25
+  # Skip postings older than this (guards against stale roles on first run).
+  max_age_hours: 48
+
+# Skip jobs whose description says any of these (case-insensitive regex).
+exclude_patterns:
+  - "u\\.?s\\.? citizen"
+  - "united states citizen"
+  - "citizenship (is )?required"
+  - "must be a (u\\.?s\\.? )?citizen"
+  - "security clearance"
+  - "\\b(secret|top secret|ts/sci)\\b clearance"
+  - "clearance (is )?required"
+  - "green card (holders )?only"
+  # Uncomment if you need visa sponsorship and want to skip "no sponsorship" roles:
+  # - "no (visa )?sponsorship"
+  # - "unable to sponsor"
+  # - "will not sponsor"
+
+# Company job boards to poll. Tokens are the slug in the board URL, e.g.
+#   boards.greenhouse.io/<token>   jobs.lever.co/<token>   jobs.ashbyhq.com/<token>
+# Add the companies you care about; a wrong slug is skipped with a warning.
+sources:
+  greenhouse: [stripe, datadog, cloudflare, databricks, okta, gitlab, twilio]
+  lever: [palantir]
+  ashby: [ramp, notion, linear]
