@@ -16,7 +16,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=3D8BFF&center=true&vCenter=true&width=760&lines=Senior+Cloud+Platform+Engineer;Security-first%3A+identity%2C+secrets%2C+network%2C+supply+chain;Azure+%7C+Kubernetes+%7C+Terraform+%7C+GitOps;6%2B+years+%E2%80%94+DevOps%2C+Platform%2C+Release%2C+Infra%2C+Security" alt="typing svg" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=3D8BFF&center=true&vCenter=true&width=760&lines=Senior+Cloud+Platform+Engineer;Security-first%3A+identity%2C+secrets%2C+network%2C+supply+chain;Azure+%7C+Kubernetes+%7C+Terraform+%7C+GitOps;6%2B+years+across+DevOps%2C+Platform%2C+Release%2C+Infra%2C+Security" alt="typing svg" />
 
 </div>
 
@@ -36,49 +36,45 @@ focus:
   - Kubernetes (AKS/EKS/GKE) at scale
   - Infrastructure as Code with Terraform
   - GitOps workflows with ArgoCD
-philosophy: "Don't call it done until you know why it broke."
-currently: Turning manual cloud operations into observable, self-service platforms
 ```
 
-Security is where I go deepest: eliminating static credentials platform-wide with Azure Workload Identity and External Secrets Operator, closing public management-port exposure, locking down storage accounts and networking behind private endpoints, enforcing non-root container execution, and gating CI pipelines with supply-chain scanning. That discipline runs through everything else I build — migrating live infrastructure without breaking it (100% Terraform coverage, zero-downtime service mesh migrations), replacing imperative deployments with GitOps through ArgoCD, and building cost and observability tooling that reports real evidence instead of invented numbers.
+Security is where I go deepest: eliminating static credentials platform-wide with Azure Workload Identity and External Secrets Operator, closing public management-port exposure, locking down storage accounts and networking behind private endpoints, enforcing non-root container execution, and gating CI pipelines with supply-chain scanning. That discipline runs through everything else I build: migrating live infrastructure without breaking it (100% Terraform coverage, zero-downtime service mesh migrations), replacing imperative deployments with GitOps through ArgoCD, and building cost and observability tooling that reports real evidence instead of invented numbers.
 
-6+ years across DevOps, platform, infrastructure, release engineering, and security — not as separate hats, but as one continuous responsibility.
+6+ years across DevOps, platform, infrastructure, release engineering, and security, not as separate hats, but as one continuous responsibility.
 
 ---
 
 ## 💼 Selected Work
 
-> Most of my work lives in private, employer-owned repositories, so it isn't visible on this profile directly. Here's what it covers and the outcomes it shipped.
-
-**Kubernetes Platform IaC Migration** · Stimulus, Inc.
+**Kubernetes Platform IaC Migration**
 Drove the platform's move from manual, click-ops Kubernetes changes to full Infrastructure as Code, bringing the platform layer and observability stack under Terraform.
 - 100% Terraform coverage across the platform layer and observability stack (Prometheus, Grafana, Jaeger, Kiali)
 - Reusable Terraform modules that made infrastructure changes repeatable and auditable
 
 `Terraform` `Kubernetes` `AKS` `Prometheus` `Grafana`
 
-**GitOps Continuous Delivery** · Stimulus, Inc.
+**GitOps Continuous Delivery**
 Architected and implemented a GitOps delivery model with ArgoCD, replacing imperative kubectl-push deployments with declarative, Git-driven reconciliation.
 - Every production change is now declared in Git and reconciled automatically
 - Faster, safer rollbacks through version-controlled deployment history
 
 `ArgoCD` `GitOps` `Kubernetes` `CI/CD`
 
-**Zero-Downtime Service Mesh Migration** · Stimulus, Inc.
+**Zero-Downtime Service Mesh Migration**
 Migrated the Istio service mesh from istioctl-managed to Helm-managed Terraform with zero production traffic drops, then codified the pattern into reusable modules.
 - Zero traffic drops during a live service mesh migration
 - Migration pattern reused across the platform for future upgrades
 
 `Istio` `Service Mesh` `Helm` `Terraform`
 
-**Secrets & Identity Hardening** · Stimulus, Inc.
+**Secrets & Identity Hardening**
 Eliminated static service principal credentials platform-wide by integrating External Secrets Operator with Azure Key Vault via workload identity.
 - Removed long-lived static credentials across the platform
 - Secrets now rotate through managed identity instead of checked-in config
 
 `Azure Key Vault` `Workload Identity` `External Secrets Operator` `Security`
 
-**Multi-Cluster CI/CD & Container Platform** · Infosys
+**Multi-Cluster CI/CD & Container Platform**
 Built Azure DevOps CI/CD pipelines and deployed applications across AKS and EKS, orchestrating multi-cluster synchronization with ArgoCD and standing up OpenShift clusters for PaaS workloads.
 - Streamlined delivery across two cloud providers and three orchestration platforms
 - Automated provisioning with Ansible and secured secrets with HashiCorp Vault
@@ -146,25 +142,6 @@ For the full write-up with context, visit the [Projects section of my portfolio]
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=varshabhavandla&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0e17&title_color=3d8bff&icon_color=f5b942&text_color=c9d1d9" alt="stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=varshabhavandla&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e17&title_color=3d8bff&text_color=c9d1d9" alt="top langs" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=varshabhavandla&theme=tokyonight&hide_border=true&background=0a0e17&ring=3d8bff&fire=f5b942&currStreakLabel=3d8bff" alt="streak" />
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=varshabhavandla&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=4" alt="trophies" />
-
-</div>
-
----
-
 ## 🌱 What I'm Up To
 
 - 🛡️ Deepening expertise in supply-chain security & policy-as-code
@@ -176,7 +153,7 @@ For the full write-up with context, visit the [Projects section of my portfolio]
 
 <div align="center">
 
-### Let's build something reliable — and secure — together
+### Let's build something reliable and secure together
 
 <a href="https://varshabhavandlapelli.com"><img src="https://img.shields.io/badge/View_My_Portfolio-3d8bff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portfolio"/></a>
 
