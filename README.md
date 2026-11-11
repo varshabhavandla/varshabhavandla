@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0e17,50:3d8bff,100:f5b942&height=200&section=header&text=Varsha%20Bhavandlapelli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Cloud%20Platform%20Engineer%20%7C%20DevOps%2C%20Security%20%26%20Platform%20Reliability&descSize=16&descAlignY=58" width="100%" alt="header banner"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0e17,50:3d8bff,100:f5b942&height=200&section=header&text=Varsha%20Bhavandlapelli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Cloud%20Platform%20Engineer%20%7C%20DevOps%2C%20Security%2C%20Platform%20Reliability&descSize=16&descAlignY=58" width="100%" alt="header banner"/>
 
 <a href="https://www.linkedin.com/in/varsha-bh/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
