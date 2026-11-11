@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,50:3d8bff,100:f5b942&height=200&section=header&text=Varsha%20Bhavandlapelli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Cloud%20Platform%20Engineer%20%7C%20DevOps%2C%20Security%20%26%20Platform%20Reliability&descSize=16&descAlignY=58" width="100%" alt="header banner"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0e17,50:3d8bff,100:f5b942&height=200&section=header&text=Varsha%20Bhavandlapelli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Cloud%20Platform%20Engineer%20%7C%20DevOps%2C%20Security%20%26%20Platform%20Reliability&descSize=16&descAlignY=58" width="100%" alt="header banner"/>
 
 <a href="https://www.linkedin.com/in/varsha-bh/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -26,7 +26,8 @@
 
 ```yaml
 name: Varsha Bhavandlapelli
-role: Senior Cloud Platform Engineer
+role: DevOps and Senior Cloud Platform Engineer
+experience: 6+ years
 location: Dallas, Texas, USA
 strongest_area: Security & DevSecOps
 focus:
@@ -42,6 +43,49 @@ currently: Turning manual cloud operations into observable, self-service platfor
 Security is where I go deepest: eliminating static credentials platform-wide with Azure Workload Identity and External Secrets Operator, closing public management-port exposure, locking down storage accounts and networking behind private endpoints, enforcing non-root container execution, and gating CI pipelines with supply-chain scanning. That discipline runs through everything else I build — migrating live infrastructure without breaking it (100% Terraform coverage, zero-downtime service mesh migrations), replacing imperative deployments with GitOps through ArgoCD, and building cost and observability tooling that reports real evidence instead of invented numbers.
 
 6+ years across DevOps, platform, infrastructure, release engineering, and security — not as separate hats, but as one continuous responsibility.
+
+---
+
+## 💼 Selected Work
+
+> Most of my work lives in private, employer-owned repositories, so it isn't visible on this profile directly. Here's what it covers and the outcomes it shipped.
+
+**Kubernetes Platform IaC Migration** · Stimulus, Inc.
+Drove the platform's move from manual, click-ops Kubernetes changes to full Infrastructure as Code, bringing the platform layer and observability stack under Terraform.
+- 100% Terraform coverage across the platform layer and observability stack (Prometheus, Grafana, Jaeger, Kiali)
+- Reusable Terraform modules that made infrastructure changes repeatable and auditable
+
+`Terraform` `Kubernetes` `AKS` `Prometheus` `Grafana`
+
+**GitOps Continuous Delivery** · Stimulus, Inc.
+Architected and implemented a GitOps delivery model with ArgoCD, replacing imperative kubectl-push deployments with declarative, Git-driven reconciliation.
+- Every production change is now declared in Git and reconciled automatically
+- Faster, safer rollbacks through version-controlled deployment history
+
+`ArgoCD` `GitOps` `Kubernetes` `CI/CD`
+
+**Zero-Downtime Service Mesh Migration** · Stimulus, Inc.
+Migrated the Istio service mesh from istioctl-managed to Helm-managed Terraform with zero production traffic drops, then codified the pattern into reusable modules.
+- Zero traffic drops during a live service mesh migration
+- Migration pattern reused across the platform for future upgrades
+
+`Istio` `Service Mesh` `Helm` `Terraform`
+
+**Secrets & Identity Hardening** · Stimulus, Inc.
+Eliminated static service principal credentials platform-wide by integrating External Secrets Operator with Azure Key Vault via workload identity.
+- Removed long-lived static credentials across the platform
+- Secrets now rotate through managed identity instead of checked-in config
+
+`Azure Key Vault` `Workload Identity` `External Secrets Operator` `Security`
+
+**Multi-Cluster CI/CD & Container Platform** · Infosys
+Built Azure DevOps CI/CD pipelines and deployed applications across AKS and EKS, orchestrating multi-cluster synchronization with ArgoCD and standing up OpenShift clusters for PaaS workloads.
+- Streamlined delivery across two cloud providers and three orchestration platforms
+- Automated provisioning with Ansible and secured secrets with HashiCorp Vault
+
+`Azure DevOps` `AKS` `EKS` `OpenShift` `Ansible`
+
+For the full write-up with context, visit the [Projects section of my portfolio](https://varshabhavandlapelli.com/#projects).
 
 ---
 
@@ -138,6 +182,6 @@ Security is where I go deepest: eliminating static credentials platform-wide wit
 
 <img src="https://komarev.com/ghpvc/?username=varshabhavandla&label=Profile%20Views&color=3d8bff&style=for-the-badge" alt="profile views" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f5b942,50:3d8bff,100:0a0e17&height=120&section=footer" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:f5b942,50:3d8bff,100:0a0e17&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>
