@@ -2,13 +2,13 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:06b6d4,100:ec4899&height=200&section=header&text=Varsha%20Bhavandlapelli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Platform%20Engineer%20%7C%20Building%20the%20infrastructure%20others%20build%20on&descSize=18&descAlignY=58" width="100%" alt="header banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,50:3d8bff,100:f5b942&height=200&section=header&text=Varsha%20Bhavandlapelli&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Senior%20Cloud%20Platform%20Engineer%20%7C%20DevOps%2C%20Security%20%26%20Platform%20Reliability&descSize=16&descAlignY=58" width="100%" alt="header banner"/>
 
 <a href="https://www.linkedin.com/in/varsha-bh/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="https://varshabhavandlapelli.com">
-  <img src="https://img.shields.io/badge/Portfolio-7c3aed?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-3d8bff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
 </a>
 <a href="mailto:varshabhavandla89@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
@@ -16,7 +16,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=700&lines=Platform+Engineer+%26+Cloud+Architect;Azure+%7C+Kubernetes+%7C+Terraform+%7C+GitOps;Production-grade+infrastructure+at+scale;Automating+everything+with+IaC+%26+DevSecOps" alt="typing svg" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=3D8BFF&center=true&vCenter=true&width=760&lines=Senior+Cloud+Platform+Engineer;Security-first%3A+identity%2C+secrets%2C+network%2C+supply+chain;Azure+%7C+Kubernetes+%7C+Terraform+%7C+GitOps;6%2B+years+%E2%80%94+DevOps%2C+Platform%2C+Release%2C+Infra%2C+Security" alt="typing svg" />
 
 </div>
 
@@ -26,23 +26,33 @@
 
 ```yaml
 name: Varsha Bhavandlapelli
-role: Platform Engineer
-location: Frisco, Texas, USA
+role: Senior Cloud Platform Engineer
+location: Dallas, Texas, USA
+strongest_area: Security & DevSecOps
 focus:
+  - Security remediation across identity, secrets, network, and supply chain
   - Architecting production-grade Azure infrastructure
   - Kubernetes (AKS/EKS/GKE) at scale
   - Infrastructure as Code with Terraform
   - GitOps workflows with ArgoCD
-  - DevSecOps & zero-trust security
-philosophy: "Observable, declarative, and auditable platforms."
-currently: Turning manual cloud operations into self-service platforms
+philosophy: "Don't call it done until you know why it broke."
+currently: Turning manual cloud operations into observable, self-service platforms
 ```
 
-I'm a **Platform Engineer** who builds the foundations other teams ship on. I specialize in taking fragile, manual cloud setups and transforming them into **declarative, automated, and secure** platforms — with 100% Terraform coverage, GitOps reconciliation, and policy-as-code baked in from day one.
+Security is where I go deepest: eliminating static credentials platform-wide with Azure Workload Identity and External Secrets Operator, closing public management-port exposure, locking down storage accounts and networking behind private endpoints, enforcing non-root container execution, and gating CI pipelines with supply-chain scanning. That discipline runs through everything else I build — migrating live infrastructure without breaking it (100% Terraform coverage, zero-downtime service mesh migrations), replacing imperative deployments with GitOps through ArgoCD, and building cost and observability tooling that reports real evidence instead of invented numbers.
+
+6+ years across DevOps, platform, infrastructure, release engineering, and security — not as separate hats, but as one continuous responsibility.
 
 ---
 
 ## 🛠️ Tech Stack
+
+### 🔐 Security & Identity
+![RBAC](https://img.shields.io/badge/RBAC-000000?style=for-the-badge&logo=auth0&logoColor=white)
+![Azure Key Vault](https://img.shields.io/badge/Azure_Key_Vault-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![HashiCorp Vault](https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
+![OAuth2](https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge&logo=auth0&logoColor=white)
+![Workload Identity](https://img.shields.io/badge/Workload_Identity-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ### ☁️ Cloud & Platforms
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
@@ -60,15 +70,14 @@ I'm a **Platform Engineer** who builds the foundations other teams ship on. I sp
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![Vault](https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
 
 ### 🔄 CI/CD & Observability
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white)
 
 ### 💻 Languages & Tools
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -97,12 +106,12 @@ I'm a **Platform Engineer** who builds the foundations other teams ship on. I sp
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=varshabhavandla&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=06b6d4&icon_color=7c3aed&text_color=c9d1d9" alt="stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=varshabhavandla&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=06b6d4&text_color=c9d1d9" alt="top langs" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=varshabhavandla&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0e17&title_color=3d8bff&icon_color=f5b942&text_color=c9d1d9" alt="stats" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=varshabhavandla&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0e17&title_color=3d8bff&text_color=c9d1d9" alt="top langs" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=varshabhavandla&theme=tokyonight&hide_border=true&background=0d1117&ring=7c3aed&fire=ec4899&currStreakLabel=06b6d4" alt="streak" />
+<img src="https://streak-stats.demolab.com?user=varshabhavandla&theme=tokyonight&hide_border=true&background=0a0e17&ring=3d8bff&fire=f5b942&currStreakLabel=3d8bff" alt="streak" />
 
 <br/>
 
@@ -114,21 +123,21 @@ I'm a **Platform Engineer** who builds the foundations other teams ship on. I sp
 
 ## 🌱 What I'm Up To
 
-- 🔭 Building self-service platform tooling and golden-path templates
 - 🛡️ Deepening expertise in supply-chain security & policy-as-code
-- 🤝 Open to collaborating on open-source infrastructure & DevOps projects
-- 💬 Ask me about **Terraform, Kubernetes, GitOps, or Azure architecture**
+- 🔭 Building self-service platform tooling and golden-path templates
+- 🤝 Open to collaborating on open-source infrastructure, DevOps, and DevSecOps projects
+- 💬 Ask me about **security remediation, Terraform, Kubernetes, GitOps, or Azure architecture**
 
 ---
 
 <div align="center">
 
-### 💜 Let's build something reliable together
+### Let's build something reliable — and secure — together
 
-<a href="https://varshabhavandlapelli.com"><img src="https://img.shields.io/badge/View_My_Portfolio-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portfolio"/></a>
+<a href="https://varshabhavandlapelli.com"><img src="https://img.shields.io/badge/View_My_Portfolio-3d8bff?style=for-the-badge&logo=googlechrome&logoColor=white" alt="portfolio"/></a>
 
-<img src="https://komarev.com/ghpvc/?username=varshabhavandla&label=Profile%20Views&color=7c3aed&style=for-the-badge" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=varshabhavandla&label=Profile%20Views&color=3d8bff&style=for-the-badge" alt="profile views" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ec4899,50:06b6d4,100:7c3aed&height=120&section=footer" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f5b942,50:3d8bff,100:0a0e17&height=120&section=footer" width="100%" alt="footer"/>
 
 </div>
