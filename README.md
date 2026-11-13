@@ -74,12 +74,12 @@ Eliminated static service principal credentials platform-wide by integrating Ext
 
 `Azure Key Vault` `Workload Identity` `External Secrets Operator` `Security`
 
-**Multi-Cluster CI/CD & Container Platform**
-Built Azure DevOps CI/CD pipelines and deployed applications across AKS and EKS, orchestrating multi-cluster synchronization with ArgoCD and standing up OpenShift clusters for PaaS workloads.
-- Streamlined delivery across two cloud providers and three orchestration platforms
-- Automated provisioning with Ansible and secured secrets with HashiCorp Vault
+**Azure CI/CD & Container Platform**
+Built Azure DevOps CI/CD pipelines and deployed containerized applications on AKS, provisioning infrastructure with ARM Templates and troubleshooting pipeline and deployment failures.
+- Automated REST API deployments with Python and Shell scripting, cutting deployment time in half
+- Centralized monitoring with Azure Monitor and Log Analytics, plus ongoing cost and access-control review
 
-`Azure DevOps` `AKS` `EKS` `OpenShift` `Ansible`
+`Azure DevOps` `ARM Templates` `AKS` `Azure Monitor` `RBAC`
 
 For the full write-up with context, visit the [Projects section of my portfolio](https://varshabhavandlapelli.com/#projects).
 
